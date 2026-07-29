@@ -1,0 +1,28 @@
+# Virtual environment (1.6 GB — never publish)
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Paper sources and personal working notes (kept out of the code repo)
+paper/
+docs/
+
+# Third-party clone with its own history (embedded git repo)
+nanoGPT/
+
+# Superseded runtime outputs (contain stale numbers + machine-specific IPs)
+experiments/results/
+
+# Transient trace artifacts
+/tmp/strace_output.log
+*.strace
+strace_output.log
+
+# Editor / OS cruft
+.claude/
+.DS_Store
+*.swp

@@ -1,0 +1,4 @@
+# Kage runtime dependencies (Python 3.13)
+# The dynamic tracer additionally requires the system `strace` binary.
+requests==2.33.0
+pip-audit==2.10.1

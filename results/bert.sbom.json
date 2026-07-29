@@ -1,0 +1,359 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:e05a9bc3-f356-4dd5-a97d-0d8c2adb9cfe",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-07-28T20:35:45Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "name": "kage",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "name": "kage"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/unknown@3.13.4",
+      "name": "unknown",
+      "version": "3.13.4",
+      "properties": [
+        {
+          "name": "kage:detection_method",
+          "value": "static"
+        },
+        {
+          "name": "kage:is_shadow_dependency",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/unknown@1.26.0",
+      "name": "unknown",
+      "version": "1.26.0",
+      "properties": [
+        {
+          "name": "kage:detection_method",
+          "value": "static"
+        },
+        {
+          "name": "kage:is_shadow_dependency",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/unknown@12.2.0",
+      "name": "unknown",
+      "version": "12.2.0",
+      "properties": [
+        {
+          "name": "kage:detection_method",
+          "value": "static"
+        },
+        {
+          "name": "kage:is_shadow_dependency",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/unknown@6.10.2",
+      "name": "unknown",
+      "version": "6.10.2",
+      "properties": [
+        {
+          "name": "kage:detection_method",
+          "value": "static"
+        },
+        {
+          "name": "kage:is_shadow_dependency",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/unknown@78.1.0",
+      "name": "unknown",
+      "version": "78.1.0",
+      "properties": [
+        {
+          "name": "kage:detection_method",
+          "value": "static"
+        },
+        {
+          "name": "kage:is_shadow_dependency",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "file:/usr/lib/x86_64-linux-gnu/liblzma.so.5",
+      "name": "liblzma.so.5",
+      "version": "unknown",
+      "description": "Dynamically loaded native library: /usr/lib/x86_64-linux-gnu/liblzma.so.5",
+      "properties": [
+        {
+          "name": "kage:detection_method",
+          "value": "dynamic_trace"
+        },
+        {
+          "name": "kage:is_shadow_dependency",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "file:/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "name": "libc.so.6",
+      "version": "unknown",
+      "description": "Dynamically loaded native library: /usr/lib/x86_64-linux-gnu/libc.so.6",
+      "properties": [
+        {
+          "name": "kage:detection_method",
+          "value": "dynamic_trace"
+        },
+        {
+          "name": "kage:is_shadow_dependency",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "file:/usr/lib/x86_64-linux-gnu/libpthread.so.0",
+      "name": "libpthread.so.0",
+      "version": "unknown",
+      "description": "Dynamically loaded native library: /usr/lib/x86_64-linux-gnu/libpthread.so.0",
+      "properties": [
+        {
+          "name": "kage:detection_method",
+          "value": "dynamic_trace"
+        },
+        {
+          "name": "kage:is_shadow_dependency",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "file:/usr/lib/x86_64-linux-gnu/libbz2.so.1.0",
+      "name": "libbz2.so.1.0",
+      "version": "unknown",
+      "description": "Dynamically loaded native library: /usr/lib/x86_64-linux-gnu/libbz2.so.1.0",
+      "properties": [
+        {
+          "name": "kage:detection_method",
+          "value": "dynamic_trace"
+        },
+        {
+          "name": "kage:is_shadow_dependency",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "file:/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
+      "name": "libcrypto.so.3",
+      "version": "unknown",
+      "description": "Dynamically loaded native library: /usr/lib/x86_64-linux-gnu/libcrypto.so.3",
+      "properties": [
+        {
+          "name": "kage:detection_method",
+          "value": "dynamic_trace"
+        },
+        {
+          "name": "kage:is_shadow_dependency",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "file:/usr/lib/x86_64-linux-gnu/libssl.so.3",
+      "name": "libssl.so.3",
+      "version": "unknown",
+      "description": "Dynamically loaded native library: /usr/lib/x86_64-linux-gnu/libssl.so.3",
+      "properties": [
+        {
+          "name": "kage:detection_method",
+          "value": "dynamic_trace"
+        },
+        {
+          "name": "kage:is_shadow_dependency",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "file:/usr/lib/x86_64-linux-gnu/libzstd.so.1",
+      "name": "libzstd.so.1",
+      "version": "unknown",
+      "description": "Dynamically loaded native library: /usr/lib/x86_64-linux-gnu/libzstd.so.1",
+      "properties": [
+        {
+          "name": "kage:detection_method",
+          "value": "dynamic_trace"
+        },
+        {
+          "name": "kage:is_shadow_dependency",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "file:/usr/lib/x86_64-linux-gnu/libffi.so.8",
+      "name": "libffi.so.8",
+      "version": "unknown",
+      "description": "Dynamically loaded native library: /usr/lib/x86_64-linux-gnu/libffi.so.8",
+      "properties": [
+        {
+          "name": "kage:detection_method",
+          "value": "dynamic_trace"
+        },
+        {
+          "name": "kage:is_shadow_dependency",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "file:/usr/lib/x86_64-linux-gnu/libsqlite3.so.0",
+      "name": "libsqlite3.so.0",
+      "version": "unknown",
+      "description": "Dynamically loaded native library: /usr/lib/x86_64-linux-gnu/libsqlite3.so.0",
+      "properties": [
+        {
+          "name": "kage:detection_method",
+          "value": "dynamic_trace"
+        },
+        {
+          "name": "kage:is_shadow_dependency",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "file:/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "name": "libm.so.6",
+      "version": "unknown",
+      "description": "Dynamically loaded native library: /usr/lib/x86_64-linux-gnu/libm.so.6",
+      "properties": [
+        {
+          "name": "kage:detection_method",
+          "value": "dynamic_trace"
+        },
+        {
+          "name": "kage:is_shadow_dependency",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "file:/usr/lib/x86_64-linux-gnu/libuuid.so.1",
+      "name": "libuuid.so.1",
+      "version": "unknown",
+      "description": "Dynamically loaded native library: /usr/lib/x86_64-linux-gnu/libuuid.so.1",
+      "properties": [
+        {
+          "name": "kage:detection_method",
+          "value": "dynamic_trace"
+        },
+        {
+          "name": "kage:is_shadow_dependency",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "file:/usr/lib/x86_64-linux-gnu/libz.so.1",
+      "name": "libz.so.1",
+      "version": "unknown",
+      "description": "Dynamically loaded native library: /usr/lib/x86_64-linux-gnu/libz.so.1",
+      "properties": [
+        {
+          "name": "kage:detection_method",
+          "value": "dynamic_trace"
+        },
+        {
+          "name": "kage:is_shadow_dependency",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "file:/usr/lib/x86_64-linux-gnu/ossl-modules/legacy.so",
+      "name": "legacy.so",
+      "version": "unknown",
+      "description": "Dynamically loaded native library: /usr/lib/x86_64-linux-gnu/ossl-modules/legacy.so",
+      "properties": [
+        {
+          "name": "kage:detection_method",
+          "value": "dynamic_trace"
+        },
+        {
+          "name": "kage:is_shadow_dependency",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "file:/usr/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2",
+      "name": "libnss_mdns4_minimal.so.2",
+      "version": "unknown",
+      "description": "Dynamically loaded native library: /usr/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2",
+      "properties": [
+        {
+          "name": "kage:detection_method",
+          "value": "dynamic_trace"
+        },
+        {
+          "name": "kage:is_shadow_dependency",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "file:/usr/lib/x86_64-linux-gnu/libexpat.so.1",
+      "name": "libexpat.so.1",
+      "version": "unknown",
+      "description": "Dynamically loaded native library: /usr/lib/x86_64-linux-gnu/libexpat.so.1",
+      "properties": [
+        {
+          "name": "kage:detection_method",
+          "value": "dynamic_trace"
+        },
+        {
+          "name": "kage:is_shadow_dependency",
+          "value": "true"
+        }
+      ]
+    }
+  ]
+}
